@@ -7,6 +7,7 @@ class SessionsController < ApplicationController
         redirect_to :new_session
     else 
         session[:name] = params[:name]
+        # redirect_to :secret
      
     end  
    end 
